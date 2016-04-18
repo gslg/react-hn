@@ -1,0 +1,22 @@
+{
+  "name": "react-hn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "lodash": "^4.11.1",
+    "moment": "^2.13.0",
+    "react": "^15.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.7.0"
+  }
+}

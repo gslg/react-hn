@@ -1,0 +1,16 @@
+# These dependencies are required for running the app.
+npm install --save react jquery lodash moment
+
+# These dependencies are required for building the app.
+npm install --save-dev browserify watchify reactify
+
+# These dependencies are globally installed command line tools.
+npm install -g browserify watchify http-server
+
+#Start Watchify. This compiles your React (JSX) components into ordinary JavaScript.
+
+watchify -v -o build/js/NewsItemTest.js js/NewsItemTest.js
+#Start the HTTP server.
+
+http-server -p 8888
+#Visit http://localhost:8888/html/NewsItem.html. You should see the following.

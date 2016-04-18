@@ -1,17 +1,18 @@
 {
-  "name": "react-hn",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "hn",
+  "version": "0.1.0",
+  "private": true,
+  "browserify": {
+    "transform": [
+      [
+        "reactify"
+      ]
+    ]
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "jquery": "^2.2.3",
     "lodash": "^4.11.1",
-    "moment": "^2.13.0",
+    "moment": "^2.12.0",
     "react": "^15.0.1"
   },
   "devDependencies": {

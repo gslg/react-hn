@@ -1,3 +1,12 @@
+1.npm install babelify babel-preset-es2015 babel-preset-react
+2.babel --presets es2015,react --watch src/ --out-dir lib/
+#3.babelrc file
+{ "presets": ["react"] }
+
+4.npm install --save react react-dom babelify babel-preset-react
+
+5.browserify -t [ babelify ] main.js -o bundle.js
+
 # These dependencies are required for running the app.
 npm install --save react jquery lodash moment
 

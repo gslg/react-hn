@@ -2,10 +2,11 @@
   "name": "hn",
   "version": "0.1.0",
   "private": true,
+  "scripts":{"start":"http-server -p 8888"},
   "browserify": {
     "transform": [
       [
-        "reactify"
+        "babelify"
       ]
     ]
   },

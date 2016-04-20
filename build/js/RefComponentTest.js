@@ -1,0 +1,1 @@
+console.error("SyntaxError: D:/lg/nodeStu/react/react-hn/js/RefComponent.js: Unexpected token (19:39) while parsing file: D:\\lg\\nodeStu\\react\\react-hn\\js\\RefComponent.js");
